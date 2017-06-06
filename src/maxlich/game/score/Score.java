@@ -147,9 +147,6 @@ public class Score { //очки, счёт
         System.out.println("Число очков здоровья игрока, которые он потерял за уровень: " + this.lostHPPlrForLvl);
     }
 
-    /*    public static void main(String[] args) {
-        printTopList();
-    }*/
 }
 
 
