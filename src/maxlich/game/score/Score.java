@@ -1,10 +1,6 @@
 package maxlich.game.score;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import maxlich.game.Main;
-
-import java.io.*;
-import java.util.ArrayList;
 
 /**
  * Created by Максим on 23.03.2017.
