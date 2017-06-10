@@ -20,7 +20,7 @@ public class Main {
         //Score scr1 = new Score();
         //scr1.isPlrEnteredInTopList(1);
 
-        while (true) { // "проигрывание" (toPlay()) игры
+        while (true) { // "проигрывание" ("toPlay()") игры
             System.out.println("Игра \"Слепой бой\"");
             Menu menuGame = new Menu("Начать игру","Топ-лист игроков", "Выход");
             menuGame.printMenu();
@@ -38,7 +38,7 @@ public class Main {
                 Score scr = new Score();
                 Player player = new Player();
 
-                int HPEnemy = 10;
+                //int HPEnemy = 10;
                 //double multHPEnemy = 1.5;
                 for (int iLevel = 1; iLevel <= 10; iLevel++) {
                     System.out.println("Этап 1, уровень " + iLevel);
